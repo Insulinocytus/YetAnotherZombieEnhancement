@@ -1,0 +1,13 @@
+{
+  "itemGroup.yetanotherzombieenhancement": "Example Mod Tab",
+  "block.yetanotherzombieenhancement.example_block": "Example Block",
+  "item.yetanotherzombieenhancement.example_item": "Example Item",
+
+  "yetanotherzombieenhancement.configuration.title": "Yet Another Zombie Enhancement Configs",
+  "yetanotherzombieenhancement.configuration.section.yetanotherzombieenhancement.common.toml": "Yet Another Zombie Enhancement Configs",
+  "yetanotherzombieenhancement.configuration.section.yetanotherzombieenhancement.common.toml.title": "Yet Another Zombie Enhancement Configs",
+  "yetanotherzombieenhancement.configuration.items": "Item List",
+  "yetanotherzombieenhancement.configuration.logDirtBlock": "Log Dirt Block",
+  "yetanotherzombieenhancement.configuration.magicNumberIntroduction": "Magic Number Text",
+  "yetanotherzombieenhancement.configuration.magicNumber": "Magic Number"
+}

@@ -55,9 +55,9 @@ public class YetAnotherZombieEnhancement {
             .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
     // 为示例物品创建一个 id 为“yetanotherzombieenhancement:example_tab”的创造模式标签页，该标签页位于战斗标签页之后
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB =
+            CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.yetanotherzombieenhancement")) //你创造模式标签页标题的语言键
-            .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> EXAMPLE_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(EXAMPLE_ITEM.get()); // 将示例物品添加到标签页。对于你自己的标签页，此方法优于事件
